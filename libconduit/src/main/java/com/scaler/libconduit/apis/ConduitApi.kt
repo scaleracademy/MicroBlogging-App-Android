@@ -4,10 +4,7 @@ import com.scaler.libconduit.requests.CreateArticleRequest
 import com.scaler.libconduit.requests.UserLoginRequest
 import com.scaler.libconduit.requests.UserSignupRequest
 import com.scaler.libconduit.requests.UserUpdateRequest
-import com.scaler.libconduit.responses.MultipleArticleResponse
-import com.scaler.libconduit.responses.ProfileResponse
-import com.scaler.libconduit.responses.SingleArticleResponse
-import com.scaler.libconduit.responses.UserResponse
+import com.scaler.libconduit.responses.*
 import retrofit2.http.*
 
 interface ConduitApi {
@@ -59,6 +56,9 @@ interface ConduitApi {
     suspend fun deleteArticle(
         @Path("slug") slug: String,
     ): Void
+
+    @GET("tags")
+    suspend fun getTags(): TagsResponse
 
 
 }
