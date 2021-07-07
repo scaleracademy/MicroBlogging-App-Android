@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "MicroBlogs"
 include ':app'
+include ':libconduit'
