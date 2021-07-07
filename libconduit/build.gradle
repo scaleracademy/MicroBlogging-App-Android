@@ -7,12 +7,12 @@ plugins {
 ext {
     okHttpVersion = "4.9.1"
     retrofitVersion = "2.9.0"
-    moshiVersion = "1.11.0"
+    moshiVersion = "1.12.0"
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_1_8
-    targetCompatibility = JavaVersion.VERSION_1_8
+    sourceCompatibility = JavaVersion.VERSION_12
+    targetCompatibility = JavaVersion.VERSION_12
 }
 
 dependencies {
@@ -26,5 +26,5 @@ dependencies {
 
 }
 
-sourceCompatibility = JavaVersion.VERSION_1_8
-targetCompatibility = JavaVersion.VERSION_1_8
+sourceCompatibility = JavaVersion.VERSION_12
+targetCompatibility = JavaVersion.VERSION_12
