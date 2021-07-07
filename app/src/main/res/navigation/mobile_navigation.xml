@@ -3,23 +3,23 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/mobile_navigation"
-        app:startDestination="@+id/navigation_home">
+        app:startDestination="@+id/nav_feed">
 
     <fragment
-            android:id="@+id/navigation_home"
-            android:name="com.scaler.microblogs.ui.home.HomeFragment"
-            android:label="@string/title_home"
-            tools:layout="@layout/fragment_home" />
+            android:id="@+id/nav_feed"
+            android:name="com.scaler.microblogs.ui.feed.FeedFragment"
+            android:label="@string/title_feed"
+            tools:layout="@layout/fragment_feed" />
 
     <fragment
-            android:id="@+id/navigation_dashboard"
-            android:name="com.scaler.microblogs.ui.dashboard.DashboardFragment"
-            android:label="@string/title_dashboard"
-            tools:layout="@layout/fragment_dashboard" />
+            android:id="@+id/nav_tags"
+            android:name="com.scaler.microblogs.ui.tags.TagsFragment"
+            android:label="@string/title_tags"
+            tools:layout="@layout/fragment_tags" />
 
     <fragment
-            android:id="@+id/navigation_notifications"
-            android:name="com.scaler.microblogs.ui.notifications.NotificationsFragment"
-            android:label="@string/title_notifications"
-            tools:layout="@layout/fragment_notifications" />
+            android:id="@+id/nav_account"
+            android:name="com.scaler.microblogs.ui.account.AccountFragment"
+            android:label="@string/title_account"
+            tools:layout="@layout/fragment_account" />
 </navigation>

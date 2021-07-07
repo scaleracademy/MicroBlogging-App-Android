@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1855" />
+        <entry key="app/src/main/res/layout/fragment_feed.xml" value="0.2916666666666667" />
       </map>
     </option>
   </component>
